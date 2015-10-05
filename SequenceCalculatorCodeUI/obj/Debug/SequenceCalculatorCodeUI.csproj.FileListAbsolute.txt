@@ -1,0 +1,5 @@
+c:\users\mohammad\documents\visual studio 2015\Projects\SequenceCalculator\SequenceCalculatorCodeUI\bin\Debug\SequenceCalculatorCodeUI.dll
+c:\users\mohammad\documents\visual studio 2015\Projects\SequenceCalculator\SequenceCalculatorCodeUI\bin\Debug\SequenceCalculatorCodeUI.pdb
+c:\users\mohammad\documents\visual studio 2015\Projects\SequenceCalculator\SequenceCalculatorCodeUI\obj\Debug\SequenceCalculatorCodeUI.csprojResolveAssemblyReference.cache
+c:\users\mohammad\documents\visual studio 2015\Projects\SequenceCalculator\SequenceCalculatorCodeUI\obj\Debug\SequenceCalculatorCodeUI.dll
+c:\users\mohammad\documents\visual studio 2015\Projects\SequenceCalculator\SequenceCalculatorCodeUI\obj\Debug\SequenceCalculatorCodeUI.pdb

@@ -1,0 +1,70 @@
+﻿@model SequenceCalculator.Models.CalculatorModel
+
+@{
+    ViewBag.Title = "Calculated Values";
+}
+
+<h2>Calculated Values</h2>
+
+<p>
+    @Html.ActionLink("Try Again", "Index")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.ValidationMessageFor(model => model.number)
+        </th>
+    </tr>
+    <tr>
+        <th>
+            all numbers
+        </th>
+        @{for (int i = 1; i <= Convert.ToInt32(Model.number); i++)
+            {
+                <td>
+                    @i
+                </td>
+            }
+
+        }
+    </tr>
+    <tr>
+        <th>
+            even numbers
+        </th>
+        @{foreach (var val in Model.evenNumbers)
+            {
+                <td>
+                    @val
+                </td>
+            }
+
+        }
+    </tr>
+    <tr>
+        <th>
+            odd numbers
+        </th>
+        @{foreach (var val in Model.oddNumbers)
+            {
+                <td>
+                    @val
+                </td>
+            }
+
+        }
+    </tr>
+    <tr>
+        <th>
+            special numbers
+        </th>
+        @{foreach (var val in Model.special)
+            {
+                <td>
+                    @val
+                </td>
+            }
+
+        }
+    </tr>
+</table>
